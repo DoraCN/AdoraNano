@@ -94,8 +94,8 @@ robot = p.loadURDF("urdf/adora_nano.urdf", useFixedBase=False)   # 26 joints
 
 ## Source
 
-DORA 社区（DORA中文社区）— the Chinese community of the DORA robot-development framework.
+DORA 社区
 
-- 社区网站 / Community site: [doracc.com](https://doracc.com)
+- 社区网站 / Website: [doracc.com](https://doracc.com)
 - GitHub organization: [github.com/DoraCN](https://github.com/DoraCN)
 - DORA framework: [github.com/dora-rs/dora](https://github.com/dora-rs/dora)
