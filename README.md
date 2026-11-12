@@ -1,5 +1,9 @@
 # adora_nano_description
 
+![ADORA NANO](assets/nano.png)
+
+*ADORA NANO — 3-wheel mobile base, pan-tilt camera head, two 5-DOF arms with two-blade soft grippers.*
+
 ROS 2 description package for **ADORA NANO** — a desktop mobile manipulator: a 3-wheel
 driven base, a pan-tilt camera head, two identical **5-DOF arms** (`j1..j5`), and a
 **two-blade soft gripper** driven by one `j6` servo. A `tool_mount` TCP frame is provided
@@ -51,6 +55,7 @@ matches the real mechanism. Both arms are identical and independent.
 ```
 adora_nano_description/
 ├── package.xml, CMakeLists.txt      ament_cmake package (installs everything below)
+├── assets/nano.png                  README hero render
 ├── urdf/adora_nano.urdf             canonical URDF (mesh paths ../meshes/...)
 ├── urdf/adora_nano.urdf.xacro       args: prefix, use_sim, fixed_base, base_offset, mesh_prefix
 ├── meshes/visual/<link>.stl         25 meshes (1/link), metres, link frame, 1,000,617 tris, 50.0 MB
