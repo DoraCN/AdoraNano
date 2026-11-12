@@ -5,8 +5,6 @@
 **URDF model of the ADORA NANO mobile manipulator** — a three-wheel driven base, a
 pan-tilt camera head, and two identical 5-DOF arms, each with a two-blade soft gripper.
 
-Published by the **[DORA community](https://doracc.com)** (DORA 中文社区).
-
 ## Contents
 
 ```
@@ -94,11 +92,10 @@ robot = p.loadURDF("urdf/adora_nano.urdf", useFixedBase=False)   # 26 joints
 - Visual meshes are high fidelity (~1.0 M triangles); decimate them for lightweight viewers.
 - Joint limits are actuator limits where no mechanical stop is modelled.
 
-## Source & community
+## Source
 
-This model is maintained by the **DORA community** — the Chinese community of the
-[DORA](https://github.com/dora-rs/dora) robot-development framework.
+DORA 社区（DORA中文社区）— the Chinese community of the DORA robot-development framework.
 
-- Community site: [doracc.com](https://doracc.com)
+- 社区网站 / Community site: [doracc.com](https://doracc.com)
 - GitHub organization: [github.com/DoraCN](https://github.com/DoraCN)
-- Framework: [github.com/dora-rs/dora](https://github.com/dora-rs/dora)
+- DORA framework: [github.com/dora-rs/dora](https://github.com/dora-rs/dora)
