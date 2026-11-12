@@ -1,4 +1,10 @@
+# URDF-only repository: framework packaging files are kept out on purpose
+package.xml
+CMakeLists.txt
+launch/
+config/
+urdf/*.xacro
+urdf/_xacro_expanded.urdf
 __pycache__/
 *.pyc
 .DS_Store
-*.swp
