@@ -70,10 +70,10 @@ mujoco.mj_step(m, d)
 
 ```python
 import pybullet as p
-ob = p.loadURDF("urdf/adora_nano.urdf", useFixedBase=False)   # 27 bodies / 26 joints
+ob = p.loadURDF("urdf/adora_nano.urdf", useFixedBase=False)   # 26 joints
 ```
 
-**Any URDF viewer** (RViz-independent ones such as `urdf-viz`, Blender importers, Isaac,
+**Any URDF viewer** (standalone viewers such as `urdf-viz`, Blender importers, Isaac,
 Webots, …): load `urdf/adora_nano.urdf` and keep `meshes/` beside it.
 
 ### Quick checks
@@ -94,7 +94,7 @@ python -c "import mujoco; m=mujoco.MjModel.from_xml_path('urdf/adora_nano.urdf')
 | Wheel tyre radius about the true axle | 51.0 mm ±0.01 mm |
 | Left/right arm symmetry | identical CAD copies, offset ±0.46 m in base Y |
 | MuJoCo import | `nq = nv = 17`, 3000 gravity steps finite/bounded |
-| PyBullet import | 27 bodies / 26 joints, 200 steps finite |
+| PyBullet import | 26 joints, 200 steps finite |
 
 ## Known limitations
 
